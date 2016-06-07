@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin-bottom: 160px;
+    }
+
+    .top3_half {
+        width: 100%;
+        float: none;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .main_inner {
+        padding: 0 0 30px 0;
+    }
+
+    .position_top {
+        left: 132px;
+        top: 15px;
+        position: absolute;
+    }
+
+    .main_inner label {
+        font-size: 12px;
+    }
+
+    h1.title_header,  p.lead, p.welcome {
+        text-align: left;
+    }
+
+    h1.robust {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    h1.medium {
+        font-size: 18px;
+    }
+
+    .main {
+       padding: 25px 0 0 0;
+    }
+
+    .login h1.title_header {
+        text-align: right;
+        margin: 0 20% 0 0;
+    }
+
+    .visible_mobile {
+        display: inline-block!important;
+    }
+
+    .hidden_mobile {
+        display: none!important;
+    }
+
+    .visible_mobile.btn {
+        display: block!important;
+    }
+
+    .social_button {
+        text-align: right;
+        padding: 0 19% 10% 0;
+    }
+
+    .main_circle {
+        height: 76px;
+        width: 76px;
+        line-height: 76px;
+    }
+
+    .footer {
+        height: 160px;
+    }
+
+    .user_item img.user_thumb {
+        width: 70px;
+    }
+
+    .hide_header .header {
+        display: none;
+    }
+
+    .desc_head {
+        font-size: 13px;
+    }
+
+    .mid_view {
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 0;
+        padding-bottom: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .hide_header  .main{
+        margin-top: 185px;
+    }
+
+    .mid_view span{
+        display: block;
+    }
+
+    .mid_view span.second a {
+        margin-top: 0;
+        margin-bottom: -20px;
+    }
+
+    .mid_view span.strong {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+     .container {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .social_button {
+        display: inline;
+    }
+}
